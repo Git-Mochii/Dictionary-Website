@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #693e2b;
+    color: #ffffff;
+    font-family: 'YourSelectedFont', sans-serif;
+}
+
+/* Welcome Box */
+.welcome-box {
+    text-align: center;
+    background-color: #171718;
+    padding: 30px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Container */
+.container {
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    line-height: 1.5;
+}
+
+/* Search Box */
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #000000;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 15px 0;
+    width: 30%;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Result Styles */
+.result {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Error Styles */
+.error {
+    margin-top: 20px;
+    text-align: center;
+}
